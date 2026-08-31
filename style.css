@@ -1,1 +1,75 @@
+body {
+    background-color: #eeeeee;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
 
+header {
+    background-color: #176b3a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.artigo {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+}
+
+h2 {
+    color: #176b3a;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 15px auto;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 15px auto;
+}
+
+button {
+    background-color: #176b3a;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0e4d29;
+}
+
+button span {
+    margin-left: 5px;
+  }
